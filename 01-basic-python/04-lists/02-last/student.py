@@ -1,1 +1,2 @@
-# Write your code here
+def last(list):
+    return(list[len(list)-1])
