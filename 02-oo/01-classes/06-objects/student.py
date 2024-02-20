@@ -1,8 +1,15 @@
 def main():
-    # write your code here
+    f1 = Brawler(4, 4, "Aragorn")
+    f2 = Brawler(2, 7, "Gimli")
+    f3 = Brawler(7, 7, "Legolas")
+    f4 = Brawler(3, 2, "Frodo")
+    fight(f1,f2)
+    fight(f3,f4)
 
 
-# don't touch below this line
+
+
+# don't touch below this line 
 
 
 class Brawler:
